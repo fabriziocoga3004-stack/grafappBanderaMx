@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bandera de México - Colores Interactivos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bandera de México</h1>
+
+    <div class="flag">
+      <div class="stripe green" id="greenStripe"></div>
+      <div class="stripe white" id="whiteStripe">
+        <img 
+          src="escudo-mexico.png" 
+          alt="Escudo Nacional de México" 
+          class="escudo"
+        >
+      </div>
+      <div class="stripe red" id="redStripe"></div>
+    </div>
+
+    <div class="integrantes">
+      <p>Leon Meneses Luis Angel - 23200854</p>
+      <p>Vázquez Rivera Gildardo Jose - 23200903</p>
+      <p>Alberto Fabrizio Cortes Garcia - 23201269</p>
+    </div>
+
+    <div class="controls">
+      <div class="control-group">
+        <label>Esperanza (Verde)</label>
+        <input type="color" id="greenColor" value="#006847">
+        <span id="greenHex">#006847</span>
+      </div>
+
+      <div class="control-group">
+        <label>Unidad (Blanco)</label>
+        <input type="color" id="whiteColor" value="#FFFFFF">
+        <span id="whiteHex">#FFFFFF</span>
+      </div>
+
+      <div class="control-group">
+        <label>Sangre de nuestros héroes nacionales (Rojo)</label>
+        <input type="color" id="redColor" value="#CE1126">
+        <span id="redHex">#CE1126</span>
+      </div>
+    </div>
+
+    <p class="note">
+      Colores oficiales aproximados de la bandera de México: Verde #006847, Blanco #FFFFFF, Rojo #CE1126
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
